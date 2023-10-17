@@ -5,6 +5,14 @@ public class Person {
     String lastName;
     int age;
 
+    // Default Constructor
+    public Person() {
+        this.firstName = " ";
+        this.lastName = " ";
+        this.age = 0;
+    }
+
+    // Constructor
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
