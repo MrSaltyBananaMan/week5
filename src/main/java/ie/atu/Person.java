@@ -5,5 +5,7 @@ public class Person {
     String lastName;
     int age;
 
-
+    public void displayInfo() {
+        System.out.println("Name: " + firstName + " " + lastName + ", Age: " + age);
+    }
 }
